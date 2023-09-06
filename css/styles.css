@@ -1,0 +1,82 @@
+.w-20{width: 20% !important;} 
+.w-10{width: 10% !important;} 
+.w-30{width: 30% !important;} 
+.w-40{width: 40% !important;} 
+.w-60{width: 60% !important;} 
+.w-50{width: 50% !important;} 
+.w-100{width: 100% !important;} 
+.w-33{width: 33% !important;} 
+.w-100{width: 100% !important;} 
+.m-1{ margin: 1%; }
+.m-2{ margin: 2%; }
+.m-3{ margin: 3%; }
+.m-4{ margin: 4%; }
+.input-form{padding: 0.7%; font-size: 14px; border: 1px solid #cccccc;  border-radius: 5px;}
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Asap", sans-serif;
+}
+.container {
+  max-width: 100%;
+  margin: 137px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.to-do-app {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(12, 2, 2);
+  border: 1px solid #d3d3d3;
+}
+.to-do-app h2 {
+  padding: 10px;
+}
+.to-do-app input {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.to-do-app button {
+  width: fit-content;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.to-do-app button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+li {
+  font-size: 1.5rem;
+}
+.to-do-list {
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 0 20px 10px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+.to-do-list li{
+  font-size: small;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+input[type='color'], input[type='date'], input[type='datetime'], input[type='datetime-local'], input[type='email'], input[type='month'], input[type='number'], input[type='password'], input[type='search'], input[type='tel'], input[type='text'], input[type='url'], input[type='week'], input:not([type]), textarea, select {
+    color: #ffffff;
+}

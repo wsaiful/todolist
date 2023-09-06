@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <span class="pln"><!-- Google Fonts -->
+  </span><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"><span class="pln">
+  
+  <!-- CSS Reset -->
+  </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><span class="pln">
+  
+  <!-- Milligram CSS -->
+  </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"><span class="pln">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+       <div class="float-left w-100">
+              <h1>Add Daily Task Here</h1>
+              <form id="taskListEntry">
+              <input name="task" type="text" id="task" placeholder="Task Name" class="float-left w-30 m-1 form-input" />
+              <input name="priority" type="text" id="priority" placeholder="Priority" class="float-left w-10 m-1 form-input" />
+              <input name="time" type="time" id="time" placeholder="Plan Time" class="float-left w-10 m-1 input-form" />
+              <input name="duedate" type="date" id="duedate" placeholder="Due Date" class="float-left w-10 m-1 form-input" />
+              <input name="status" type="text" id="status" placeholder="Status" class="float-left w-10 m-1 form-input" />
+              <button type="submit" class="btn btn-primary float-left m-1"> Add </button>
+            </form>
+       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h3> Task List </h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Task Name</th>
+              <th>Priority</th>
+              <th>Time</th>
+              <th>Date</th>
+              <th>Statis</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="tasks">    
+                 
+          </tbody>
+        </table>
+
+    </div>
+  </div>
+</div>  
+
+
+
+<script type="text/javascript"> 
+  
+</script>
+<script src="/js/scripts.js"></script>
+</body>
+</html>
